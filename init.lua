@@ -11,7 +11,7 @@ end
 
 -- Bind keys to applications
 bindAppKey(as, "f", function()
-	hs.application.launchOrFocus("iTerm 2")
+	hs.application.launchOrFocus("iTerm2")
 end)
 bindAppKey(as, "g", function()
 	hs.application.launchOrFocus("Google Chrome")
