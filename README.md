@@ -31,7 +31,7 @@ If you press **Escape**, the modal exits without doing anything.
 
 ---
 
-## Default Keybindings
+## My Config's Current Keybindings
 
 | Key | Application |
 |----|----|
