@@ -26,9 +26,9 @@ end)
 bindAppKey(as, "g", function()
 	hs.application.launchOrFocus("Google Chrome")
 end)
-bindAppKey(as, "x", function()
-	hs.application.launchOrFocus("Firefox")
-end)
+-- bindAppKey(as, "x", function()
+-- 	hs.application.launchOrFocus("Firefox")
+-- end)
 
 bindAppKey(as, "s", function()
 	hs.application.launchOrFocus("Slack")
@@ -58,7 +58,6 @@ end)
 
 -- Reload Hammerspoon Config (`Ctrl-S + R`)
 bindAppKey(as, "r", function()
-	hs.alert.show("Reloading Hammerspoon...")
 	hs.reload()
 end)
 
@@ -76,9 +75,3 @@ end
 as:bind({}, "escape", function()
 	as:exit()
 end)
-
-----------------
-----------------
-----------------
-
--- require("poe")
